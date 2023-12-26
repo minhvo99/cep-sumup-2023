@@ -1,0 +1,29 @@
+.social{
+    display: flex;
+    flex-direction: column;
+    justify-self: flex-start;
+    
+    li{
+        margin: 0;
+        transition: all 0.5s ease-in-out;
+        cursor: pointer;
+        &:hover{
+            transform: translateX(10px);
+            transition: all 0.5s ease-in-out;
+        }
+        .contact{
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+
+            i{
+                color:#fff;
+            }
+            p{
+                margin: 0;
+                margin-left: 10px;
+                color: #fff;
+            };
+        }
+    }
+}
