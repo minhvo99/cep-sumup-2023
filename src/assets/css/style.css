@@ -1397,7 +1397,7 @@ p {
 .single-gallery .gallery-image img {
   width: 100%;
 }
-.single-gallery .gallery-image::before {
+/* .single-gallery .gallery-image::before {
   position: absolute;
   content: "";
   top: 0;
@@ -1416,7 +1416,7 @@ p {
   -ms-transition: all 0.3s ease-out 0s;
   -o-transition: all 0.3s ease-out 0s;
   transition: all 0.3s ease-out 0s;
-}
+} */
 .single-gallery .gallery-content {
   position: absolute;
   position: absolute;
