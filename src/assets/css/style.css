@@ -491,7 +491,7 @@ p {
   }
 }
 .navbar-area {
-  padding: 10px 0;
+  /* padding: 10px 0; */
   position: absolute;
   top: 0;
   left: 0;
@@ -508,7 +508,7 @@ p {
   content: "";
   width: 100%;
   height: 100%;
-  background: linear-gradient(to right, #102baf 0%, #1664ff 100%);
+  /* background: linear-gradient(to right, #102baf 0%, #1664ff 100%); */
   top: 0;
   left: 0;
   z-index: -1;
@@ -752,19 +752,19 @@ p {
 }
 .header-countdown .single-count-content.count-color-1 .count,
 .header-countdown .single-count-content.count-color-1 .text {
-  color: #ee163a;
+  color: #03a9f4;
 }
 .header-countdown .single-count-content.count-color-2 .count,
 .header-countdown .single-count-content.count-color-2 .text {
-  color: #ffc107;
+  color: #e84393;
 }
 .header-countdown .single-count-content.count-color-3 .count,
 .header-countdown .single-count-content.count-color-3 .text {
-  color: #03a9f4;
+  color: #a55eea;
 }
 .header-countdown .single-count-content.count-color-4 .count,
 .header-countdown .single-count-content.count-color-4 .text {
-  color: #8bc34a;
+  color: #fff200;
 }
 .header-content {
   margin-top: 60px;
