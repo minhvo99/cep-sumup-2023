@@ -6,6 +6,11 @@ const routes: Routes = [
     {
         path: '',
         component: SumupComponent
+    },
+    {
+        path:'',
+        redirectTo: '',
+        pathMatch: 'full'
     }
 ];
 
