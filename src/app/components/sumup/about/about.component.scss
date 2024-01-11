@@ -69,27 +69,27 @@
   }
 }
 
-.animate-charcter-1 {
-  text-transform: uppercase;
-  background-image: linear-gradient(
-    -225deg,
-    #231557 0%,
-    #44107a 29%,
-    #ff1361 67%,
-    #fff800 100%
-  );
-  background-size: auto auto;
-  background-clip: border-box;
-  background-size: 200% auto;
-  color: #fff;
-  background-clip: text;
-  text-fill-color: transparent;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  animation: textclip 4s linear infinite;
-  display: inline-block;
-  font-size: 30px;
-}
+// .animate-charcter-1 {
+//   text-transform: uppercase;
+//   background-image: linear-gradient(
+//     -225deg,
+//     #231557 0%,
+//     #44107a 29%,
+//     #ff1361 67%,
+//     #fff800 100%
+//   );
+//   background-size: auto auto;
+//   background-clip: border-box;
+//   background-size: 200% auto;
+//   color: #fff;
+//   background-clip: text;
+//   text-fill-color: transparent;
+//   -webkit-background-clip: text;
+//   -webkit-text-fill-color: transparent;
+//   animation: textclip 4s linear infinite;
+//   display: inline-block;
+//   font-size: 30px;
+// }
 
 @keyframes textclip {
   to {
@@ -102,37 +102,37 @@
   line-height: 30px;
 }
 
-@import url("https://fonts.googleapis.com/css?family=Monoton");
+// @import url("https://fonts.googleapis.com/css?family=Monoton");
 
-$lightColor: #f5ee9e;
-$darkColor: #f49e4c;
-$bgColor: #ab3428;
+// $lightColor: #f5ee9e;
+// $darkColor: #f49e4c;
+// $bgColor: #ab3428;
 
-html,
-body {
-  width: 100%;
-  height: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-family: "Monoton", Helvetica, sans-serif;
+// html,
+// body {
+//   width: 100%;
+//   height: 100%;
+//   display: flex;
+//   justify-content: center;
+//   align-items: center;
+//   font-family: "Monoton", Helvetica, sans-serif;
 
-  letter-spacing: 5px;
-}
+//   letter-spacing: 5px;
+// }
 
-.animate-charcter-2 {
-  text-align: center;
-  font-family: "Monoton";
-  font-size: 30px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 120%;
-  letter-spacing: -0.03125rem;
-  text-transform: uppercase;
-  background: linear-gradient(to right, #ff27cc 0%, #ff363c 100%);
-  background-clip: text;
-  color: transparent;
-}
+// .animate-charcter-2 {
+//   text-align: center;
+//   font-family: "Monoton";
+//   font-size: 30px;
+//   font-style: normal;
+//   font-weight: 400;
+//   line-height: 120%;
+//   letter-spacing: -0.03125rem;
+//   text-transform: uppercase;
+//   background: linear-gradient(to right, #ff27cc 0%, #ff363c 100%);
+//   background-clip: text;
+//   color: transparent;
+// }
 .box {
   --border-size: 3px;
   --border-angle: 0turn;
