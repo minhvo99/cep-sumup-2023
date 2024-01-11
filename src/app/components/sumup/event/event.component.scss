@@ -16,7 +16,7 @@
   text-fill-color: transparent;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  animation: textclip 2s linear infinite;
+  animation: textclip 4s linear infinite;
   display: inline-block;
       font-size: 50px;
 }
@@ -39,4 +39,14 @@
   background: linear-gradient(to right, #FF27CC 0%, #FF363C 100%);
   background-clip: text;
   color: transparent;
+}
+.agenda-tab{
+  border-radius: 4px !important;
+  padding: 20px 60px;
+  background: transparent;
+  border: 2px solid rgba(0, 212, 255, 1);
+  color: #fff;
+  &:hover{
+    border: 2px solid rgb(33, 146, 168);
+  }
 }

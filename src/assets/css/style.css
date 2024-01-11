@@ -658,7 +658,7 @@ p {
   color: #1863ff;
 }
 .header-content-area {
-  height: 550px;
+  height: 500px;
   border-bottom-left-radius: 30px;
   border-bottom-right-radius: 30px;
   position: relative;
@@ -676,7 +676,7 @@ p {
 }
 @media only screen and (min-width: 576px) and (max-width: 767px) {
   .header-content-area {
-    height: 550px;
+    height: 450px;
   }
 }
 /* .header-content-area::before {
@@ -888,6 +888,7 @@ p {
   .event-tab .nav .nav-item {
     width: 48%;
     margin-top: 10px;
+    border-radius: 8px;
   }
 }
 .event-tab .nav .nav-item a {
@@ -897,6 +898,7 @@ p {
   padding: 15px 0;
   position: relative;
   z-index: 5;
+  
 }
 @media only screen and (min-width: 992px) and (max-width: 1200px) {
   .event-tab .nav .nav-item a {
